@@ -9,6 +9,7 @@ import {
 import { Image } from "expo-image";
 import { useLocalSearchParams } from "expo-router";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { router } from "expo-router";
 
 interface Product {
   id: number;
@@ -81,6 +82,9 @@ export default function ProductDetails() {
               {added ? "Added to Cart ✓" : "Add To Cart"}
             </Text>
           </TouchableOpacity>
+          <TouchableOpacity onPress={() => router.push("/cart")}>
+            <Text style={styles.goToCart}>View Cart →</Text>
+          </TouchableOpacity>
         </View>
       ) : (
         <Text>Product not found</Text>
@@ -145,4 +149,11 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: "600",
   },
+  goToCart: {
+  marginTop: 20,
+  textAlign: "center",
+  color: "#3B82F6",
+  fontSize: 16,
+  fontWeight: "600",
+},
 });
