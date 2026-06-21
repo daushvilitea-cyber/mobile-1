@@ -94,65 +94,7 @@ export default function Profile() {
   );
 }
 
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     alignItems: "center",
-//     justifyContent: "center",
-//     padding: 20,
-//   },
 
-//   avatar: {
-//     width: 150,
-//     height: 150,
-//     borderRadius: 75,
-//   },
-
-//   placeholder: {
-//     width: 150,
-//     height: 150,
-//     borderRadius: 75,
-//     backgroundColor: "#ddd",
-//     justifyContent: "center",
-//     alignItems: "center",
-//   },
-
-//   placeholderText: {
-//     fontSize: 70,
-//   },
-
-//   name: {
-//     fontSize: 24,
-//     fontWeight: "700",
-//     marginTop: 20,
-//   },
-
-//   info: {
-//     color: "gray",
-//     marginBottom: 30,
-//   },
-
-//   button: {
-//     backgroundColor: "#3B82F6",
-//     padding: 15,
-//     borderRadius: 12,
-//     width: "100%",
-//     marginBottom: 10,
-//   },
-
-//   removeButton: {
-//     backgroundColor: "#EF4444",
-//     padding: 15,
-//     borderRadius: 12,
-//     width: "100%",
-//   },
-
-//   buttonText: {
-//     color: "white",
-//     textAlign: "center",
-//     fontWeight: "600",
-//   },
-// });
 
 const styles = StyleSheet.create({
   container: {
